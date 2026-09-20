@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ConverterKit — Support</title>
+<meta name="description" content="Pick a tab for the kind of file you have — Image, Video, Audio or Doc — then pick what you want to do. You choose the files after that, so nothing is selec">
+<style>
+:root {
+  --canvas: #FBFBFD; --surface: #FFFFFF; --ink: #14161A;
+  --ink-soft: #697079; --accent: #00857A; --rule: rgba(0,0,0,.09);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #0D0F12; --surface: #16191D; --ink: #F2F4F6;
+    --ink-soft: #9AA2AB; --accent: #2DD4BF; --rule: rgba(255,255,255,.12);
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 48px 16px 96px;
+  background: var(--canvas); color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+main { max-width: 42rem; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; letter-spacing: -.02em; margin: 0 0 .25em; }
+h2 {
+  font-size: 20px; font-weight: 600; margin: 2.2em 0 .6em;
+  padding-top: 1.2em; border-top: 1px solid var(--rule);
+}
+h2:first-of-type { border-top: 0; padding-top: 0; }
+p, li { color: var(--ink-soft); }
+strong { color: var(--ink); font-weight: 600; }
+ul { padding-left: 1.2em; }
+li { margin: .4em 0; }
+a { color: var(--accent); }
+code {
+  font: 14px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 6px; padding: .1em .35em;
+}
+.updated { color: var(--ink-soft); font-size: 15px; margin: 0 0 2.5em; }
+footer {
+  margin-top: 4em; padding-top: 1.2em; border-top: 1px solid var(--rule);
+  color: var(--ink-soft); font-size: 15px;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>ConverterKit — Support</h1>
+<h2>Getting started</h2>
+<p>Pick a tab for the kind of file you have — <strong>Image</strong>, <strong>Video</strong>, <strong>Audio</strong> or <strong>Doc</strong> — then pick what you want to do. You choose the files after that, so nothing is selected for a conversion that turns out not to be offered.</p>
+<h2>Common questions</h2>
+<p><strong>Where did my converted file go?</strong> <em>Files › On My iPhone › ConverterKit.</em> It stays there until you delete it. Conversions made from the share sheet arrive there the next time you open the app.</p>
+<p><strong>Why can&#x27;t I find ConverterKit in the share sheet?</strong> iOS puts new extensions under <strong>More</strong> until you pin them. Tap the share button, scroll to More, then Edit, and pin ConverterKit to the top row. iOS controls that list; no app can promote itself in it.</p>
+<p><strong>Why is my converted photo bigger than the original?</strong> HEIC is roughly twice as efficient as JPEG, so a HEIC photo converted to JPEG legitimately grows. ConverterKit warns you before converting when this will happen, and says by how much. Converting <em>to</em> HEIC, or using Compress, makes it smaller.</p>
+<p><strong>Why won&#x27;t a one-hour video compress to 25 MB?</strong> Because it can&#x27;t. An hour of video at 25 MB leaves about 55 kbps for picture and sound together, which no encoder can make watchable. ConverterKit will not offer a target it cannot meet — it tells you the smallest honest size for that clip instead, and for long recordings offers &quot;half the size&quot; and &quot;a quarter&quot; instead of a fixed number.</p>
+<p><strong>What does Pro include?</strong> Changing format is always free — images, video, audio and PDF, any number of files. Pro adds Compress, Resize, Change speed, Extract audio, Remove metadata, converting and converting several files at once. One payment, no subscription.</p>
+<p><strong>I bought Pro and it&#x27;s locked.</strong> Settings › Restore purchase. Purchases are tied to the Apple Account that bought them, so use the same one. If it still says nothing was found, the purchase may not have completed — check your App Store purchase history.</p>
+<p><strong>Does anything get uploaded?</strong> No. Every conversion runs on the device. See the Privacy Policy.</p>
+<p><strong>Which formats are supported?</strong> Out: JPEG, PNG, HEIC, TIFF, MP4 (H.264), HEVC, GIF, MP3, M4A, WAV, PDF. In: those, plus WebP, MOV, most camera and screen recordings, and anything else iOS can read. WebP can be opened but not created — Apple&#x27;s frameworks cannot write it.</p>
+<p><strong>Does it work without a network?</strong> Yes, entirely — apart from buying or restoring Pro, which goes through Apple.</p>
+<h2>Requirements</h2>
+<p>iOS 26 or later. iPhone only.</p>
+<h2>Contact</h2>
+<p>Email <strong>chencau@gmail.com</strong>. It is one person, so a reply may take a day or two — and naming the file type and what you expected saves a round trip.</p>
+<footer>ConverterKit is made by Mano Studio. Conversions run on your iPhone.</footer>
+</main>
+</body>
+</html>
